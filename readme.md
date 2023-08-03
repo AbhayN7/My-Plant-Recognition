@@ -1,6 +1,6 @@
-# Project Name
+# My Plant Recognition
 
- Add short description of project here > 
+ Add short description of project here > asdf
 
 ![add image descrition here](direct image link here)
 
