@@ -8,6 +8,11 @@ In order for the nano to detect healthy plants, it has to transfer learn. In ord
 
 ## Running this project
 
-1. Download the Jetson Inference Library and Python3
-2. Download the resnet
+1. Open Visual Studio Code
+2. Download the SSH extension
+3. Log into the nano through SSH in Visual Studio Code
+4. Go into the terminal and change directories into the classification folder
+5. Run this command to test the model: imagenet.py --model=models/plant_picture/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/Healthy_Plantvillage/labels.txt data/Healthy_Plantvillage/test/Soybean___healthy/soybean.jpg soybeantest.jpg
+
+
 [View a video explanation here](video link)
