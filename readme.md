@@ -15,4 +15,4 @@ In order for the nano to detect healthy plants, it has to transfer learn. In ord
 5. Run this command to test the model: imagenet.py --model=models/plant_picture/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/Healthy_Plantvillage/labels.txt data/Healthy_Plantvillage/test/Soybean___healthy/soybean.jpg soybeantest.jpg
 
 
-[View a video explanation here](video link)
+[View a video explanation here][(https://youtu.be/mVHn7WPXdy4)]
